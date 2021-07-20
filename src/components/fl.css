@@ -1,0 +1,19 @@
+#fle {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  #left{
+    width:"850px";
+    height:"800px";
+  }
+  /* Responsive layout - makes a one column layout instead of a two-column layout */
+  @media (max-width: 800px) {
+    #fle {
+      flex-direction: column;
+    }
+    #left{
+        width:"200px";
+    height:"200px";
+    }
+  }
